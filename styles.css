@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e3a50;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.html {
+    background-color: #e34c26;
+}
+
+.css {
+    background-color: #264de4;
+}
+
+.js {
+    background-color: #f0db4f;
+    color: #323330;
+}
+
+/* Particle style */
+.particle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0; /* Start invisible */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
